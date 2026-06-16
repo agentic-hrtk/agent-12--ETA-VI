@@ -1,10 +1,9 @@
-## Dependency Note
-
-### Repository: auth-service
+### Dependency: auth-service
 
 #### Excerpt from README.md:
 
 OAuth2 / JWT authentication microservice
 
-This microservice handles OAuth2 authentication and JWT token generation for secure API access. It is a critical component of the overall system architecture, providing secure authentication and authorization for other services.
+This microservice handles OAuth2 and JWT authentication for the application. It is responsible for generating and validating JWT tokens, managing user sessions, and providing secure authentication endpoints.
 
+For migration planning, ensure that the authentication mechanisms are properly integrated and tested with the new system.
